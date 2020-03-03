@@ -19,6 +19,9 @@ salloc --time=1:0:0 --ntasks=1 --cpus-per-task=8 --mem-per-cpu=128M --account=de
 
 with this step you create a tunnel so that you can copy and paste the link to the 
 interactive notebook. As an example:
+
 After step 4 you are given a token something like
 http://blg4101.int.ets1.calculquebec.ca:8888/?token=3ecba362576958a8cd7205dae93645b12b1
+
+
 After creating tunnel you are free to copy paste this link & work on Jupyter Notebook
