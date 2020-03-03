@@ -1,6 +1,6 @@
 # electron_id
 
-The steps of running ipynb file at beluga cluster:
+The steps that you have to follow each time to run an ipynb file at beluga cluster:
 
 1) ssh -Y username@beluga.computecanada.ca
 2) module load python/3.6
