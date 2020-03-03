@@ -25,3 +25,8 @@ http://blg4101.int.ets1.calculquebec.ca:8888/?token=3ecba362576958a8cd7205dae936
 
 
 After creating tunnel you are free to copy paste this link & work on Jupyter Notebook
+
+You need to follow these steps every time you want to run the code. But beware that before taking any of these steps one has to download the install the jupyter notebook and create a python virtual environment. All detailed information can be found at:
+
+https://docs.computecanada.ca/wiki/Jupyter
+
