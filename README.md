@@ -5,7 +5,7 @@ The steps that you have to follow each time to run an ipynb file at beluga clust
 1) ssh -Y username@beluga.computecanada.ca
 2) module load python/3.6
 3) source $HOME/jupyter_py3/bin/activate
-4) salloc --time=1:0:0 --account=rpp-bengioy --gres=gpu:1 --cpus-per-task=8 --mem=64G  srun $VIRTUAL_ENV/bin/notebook.sh
+4) salloc --time=1:0:0 --account=rpp-bengioy-ad --gres=gpu:1 --cpus-per-task=8 --mem=64G  srun $VIRTUAL_ENV/bin/notebook.sh
 
 At step 4 one can choose as many gpus up to 4 and choose memory up to 186GB
 also 3 hr allocation time for the gpu with time=3:0:0 although you have to wait longer.
